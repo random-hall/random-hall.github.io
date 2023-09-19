@@ -5,5 +5,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("bundle.css");
     eleventyConfig.addPassthroughCopy("script.js");
     eleventyConfig.addPassthroughCopy("cookbook.pdf");
+    eleventyConfig.addPassthroughCopy("CNAME");
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 };
