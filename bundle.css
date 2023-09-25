@@ -1,22 +1,22 @@
 body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
-    background-color: pink;
+    background-color: #917468;
     background-image: url('images/bg.svg');
     background-size: 5em;
 }
 
 header {
     background: #FFD170;
-    border-bottom: 4px solid hsl(38, 90%, 40%);
+    border-bottom: 4px solid hsl(38, 50%, 30%);
     overflow: hidden;
 }
 
 footer {
     background: #FFD170;
     padding: 0.2em 0;
-    border-top: 4px solid hsl(38, 90%, 40%);
-    border-bottom: 4px solid hsl(38, 90%, 40%);
+    border-top: 4px solid hsl(38, 50%, 30%);
+    border-bottom: 4px solid hsl(38, 50%, 30%);
 }
 
 .video-container {
@@ -60,8 +60,8 @@ td h4 {
     -webkit-mask: var(--mask);
     mask: var(--mask);
 
-    background: #FD5295;
-    padding: 25px;
+    background: hsl(25, 60%, 20%);
+    padding: 40px 25px;
     color: white;
 }
 
@@ -105,7 +105,7 @@ nav {
 
 nav a::after {
     content: attr(data-content);
-    -webkit-text-stroke: 0.45em #a61e4d;
+    -webkit-text-stroke: 0.45em hsl(339, 69%, 48%);
     position: absolute;
     top: 0;
     left: 0;
@@ -139,7 +139,7 @@ section {
     background: white;
     overflow: hidden;
     border-radius: 1em;
-    border: 4px solid hsl(0, 63%, 66%);
+    border: 4px solid hsl(16, 16%, 40%);
     margin: 1em 0;
 }
 
@@ -273,20 +273,20 @@ footer {
 
 .primary-button {
     appearance: none;
-    border: none;
-    border-radius: 5em;
+    border: 2px solid white;
+    border-radius: 5px;
     padding: 0.3em 0.6em;
     font: inherit;
     font-size: 1.75em;
     text-decoration: none;
-    background: hsl(0, 63%, 46%);
+    background: hsl(16, 16%, 30%);
     transition: background 200ms;
     color: white;
     cursor: pointer;
 }
 
 .primary-button:hover {
-    background: hsl(0, 63%, 41%);
+    background: hsl(16, 16%, 25%);
 }
 
 @media only screen and (max-width: 100vh) {
