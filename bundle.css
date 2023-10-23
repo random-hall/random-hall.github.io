@@ -230,42 +230,42 @@ footer {
     display: flex;
     justify-content: center;
     margin: auto;
-    --icon-size: 256px;
+    width: fit-content;
 }
 
 .left-donuts {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    width: calc(1.1 * var(--icon-size));
     align-items: center;
 }
 
 .donut-container a {
-    height: var(--icon-size);
     display: flex;
+    padding: 0;
     flex-direction: column;
     align-items: center;
-    width: calc(1.1 * var(--icon-size));
+    max-width: min(11em, 32.5vw);
+}
+
+.donut-container a:not(:first-child) {
+    margin-top: max(-5em, -15vw);
 }
 
 .right-donuts {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    width: calc(1.1 * var(--icon-size));
     align-items: center;
 }
 
-.donut-container:hover .donut:not(:hover) {
+.donut-container:hover a:not(:hover) {
     opacity: 0.1;
 }
 
 .donut {
-    height: var(--icon-size);
-    width: max-content;
-}
-
-.donut-container a:not(:first-child) {
-    margin-top: calc(-1 * var(--icon-size) * 3/5);
+    height: 10em;
+    max-height: 30vw;
 }
 
 .centered {
