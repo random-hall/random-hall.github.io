@@ -229,6 +229,7 @@ footer {
 .donut-container {
     display: flex;
     justify-content: center;
+    margin: auto;
     --icon-size: 256px;
 }
 
@@ -254,7 +255,7 @@ footer {
     align-items: center;
 }
 
-.donut-container:has(.donut:hover) .donut:not(:hover) {
+.donut-container:hover .donut:not(:hover) {
     opacity: 0.1;
 }
 
