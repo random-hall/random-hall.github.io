@@ -4,7 +4,8 @@
   "description": "Public webpage of Random Hall.",
   "main": "script.js",
   "scripts": {
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "test": "npm run build && node localTest.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/adhami3310/random-hall-web#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "express": "^4.18.2"
   }
 }
