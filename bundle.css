@@ -7,7 +7,7 @@ body {
 }
 
 #bday {
-    background-color: #ff6699;
+    background-color: #ff6699 !important;
 }
 
 header {
