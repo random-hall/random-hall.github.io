@@ -6,6 +6,10 @@ body {
     background-size: 5em;
 }
 
+#bday {
+    background-color: #ff6699;
+}
+
 header {
     background: #FFD170;
     border-bottom: 4px solid hsl(38, 50%, 30%);
