@@ -344,3 +344,18 @@ footer {
         --icon-size: 128px;
     }
 }
+
+div.event-box {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+div.event-box:nth-child(odd) {
+    background-color: #ffe9bc;
+}
+div.event-box:nth-child(even) {
+    background-color: #ffb6cb;
+}
+div.event-box * {
+    margin: 7px;
+}
